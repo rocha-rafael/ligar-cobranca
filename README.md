@@ -1,4 +1,4 @@
-# Ligar cobrança
+# A solução/vingança justa para as ligações inedesejadas
 
 Não tenho responsabilidade sobre o uso da ferramenta e não tenho qualquer ligação com a Total Voice.
 
