@@ -1,21 +1,22 @@
-Ligar cobrança
+# Ligar cobrança
 
 Não tenho responsabilidade sobre o uso da ferramenta e não tenho qualquer ligação com a Total Voice.
 
 Baseado no gemidao-do-zap.
 
-Para usar:
+# Para usar
 Se cadastre no http://totalvoice.com.br (os créditos para ligar não são de graça, mas são baratos);
 Pegue seu token;
 Instale o pacote usando: npm install ligar-cobranca -g;
 use o comando: ligar-cobranca --de=<NUMERO> --para=<NUMERO> --token=<TOKEN> [--tipo=<TIPO>] (tipo opcional).
 
-Parâmetros
+# Parâmetros
 
 Parâmetro	Obrigatório	Descrição:
 
 --token	
 Seu token de acesso do TotalVoice
+
 --de
 Quem está se defendendo.
 
@@ -23,9 +24,7 @@ Quem está se defendendo.
 Número da empresa de cobrança.
 
 --tipo
-
 Você poderá usar o argumento --tipo para mudar a fala padrão "Alô? Alô? Alô? Alô? [...]".
---tipo
 
 Default (sem usar o --tipo) - "Alô? Alô? Alô? Alô? Alô? [...]".
 
@@ -38,7 +37,7 @@ Default (sem usar o --tipo) - "Alô? Alô? Alô? Alô? Alô? [...]".
 
 A idéia é criar (ou mesmo alterar os atuais) novos sons para se adaptar melhor em outras situações.
 
-Dica de Uso (Windows)
+# Dica de Uso (Windows)
 Crie um arquivo npm.bat (exemplo) com a linha ligar-cobranca --de=<NUMERO> --para=<NUMERO> --token=TOKEN e depois crie um segundo .bat com o código:
 
 :loop
@@ -48,11 +47,10 @@ call npm.bat
 pause
 Execute o segundo .bat criado e ele irá fazer as ligações em loop.
 
-Dica de Uso (Unix likes)
+# Dica de Uso (Unix likes)
 Crie um arquivo vinganca.sh com o código:
 
 #!/usr/bin/bash
-# heuehuuee, o melhor projeto do mundo esse <3
 
 while true
 do
@@ -61,5 +59,3 @@ do
         sleep 60
 done
 Após dê permissão, dentro do diretório rode chmod +x vinganca.sh && ./vinganca.sh <3
-
-Divirta-se.
