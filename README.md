@@ -1,4 +1,5 @@
 Ligar cobrança
+
 Não tenho responsabilidade sobre o uso da ferramenta e não tenho qualquer ligação com a Total Voice.
 
 Baseado no gemidao-do-zap.
@@ -8,20 +9,33 @@ Se cadastre no http://totalvoice.com.br (os créditos para ligar não são de gr
 Pegue seu token;
 Instale o pacote usando: npm install ligar-cobranca -g;
 use o comando: ligar-cobranca --de=<NUMERO> --para=<NUMERO> --token=<TOKEN> [--tipo=<TIPO>] (tipo opcional).
+
 Parâmetros
-Parâmetro	Obrigatório	Descrição
---token	✅	Seu token de acesso do TotalVoice
---de	✅	Quem está se defendendo.
---para	✅	Número da empresa de cobrança.
---tipo		Você poderá usar o argumento --tipo para mudar a fala padrão "Alô? Alô? Alô? Alô? [...]".
+
+Parâmetro	Obrigatório	Descrição:
+
+--token	
+Seu token de acesso do TotalVoice
+--de
+Quem está se defendendo.
+
+--para
+Número da empresa de cobrança.
+
 --tipo
+
+Você poderá usar o argumento --tipo para mudar a fala padrão "Alô? Alô? Alô? Alô? [...]".
+--tipo
+
 Default (sem usar o --tipo) - "Alô? Alô? Alô? Alô? Alô? [...]".
+
 0: Aleatório
 1: "Vocês já estão bravos? Não? Então espera ai."
 2: "Alô? Alô? Alô? Oi, está me ouvindo? Então espera ai que já te ligo de novo."
 3: "Você irá receber ligações infinitamente, até que pare de ligar no meu número"
 4: "Esse é meu jeito de viver, ninguém nunca foi igual, a minha vida é fazer, o bem vencer o mal, pelo mundo viajarei tentando encontrar, o pokemon e com o seu poder tudo transformar"
 5: "Olá, tudo bem? Parece que o jogo virou, não é mesmo? Vou te ligar repetidamente, igual vocês fazem comigo"
+
 A idéia é criar (ou mesmo alterar os atuais) novos sons para se adaptar melhor em outras situações.
 
 Dica de Uso (Windows)
